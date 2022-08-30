@@ -238,6 +238,7 @@ def main():
         elif shp_type == 'none':
             shapefile = False
             shp_type = None
+        global tilename
         file_name = "fired_"+str(tilename)
         file_path = os.path.join(proj_dir,
                                      "outputs", "tables",
